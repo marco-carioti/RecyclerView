@@ -11,10 +11,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:layout_marginBottom="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:backgroundTint="#63C5BFBF">
+        android:backgroundTint="#63C5BFBF"
+        android:padding="4dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -47,7 +49,8 @@
                     android:text="Descrizione"
                     android:textAppearance="?attr/textAppearanceBody2"
                     android:textColor="?android:attr/textColorSecondary"
-                    android:textStyle="italic" />
+                    android:textStyle="italic"
+                    android:padding="8dp" />
 
             </LinearLayout>
         </LinearLayout>

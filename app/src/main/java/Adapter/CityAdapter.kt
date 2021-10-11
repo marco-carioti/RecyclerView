@@ -23,8 +23,6 @@ class CityAdapter(val list:List<Mondo>, val context: Context): RecyclerView.Adap
             titolo1=view.findViewById(R.id.titolo)
             desrizione1=view.findViewById(R.id.descrizione)
         }
-
-
     }
 
     override fun onCreateViewHolder(
